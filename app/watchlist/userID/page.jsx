@@ -1,3 +1,13 @@
+import React from 'react'
+
+function page() {
+  return (
+    <div>page</div>
+  )
+}
+
+export default page
+
 // import React, { useEffect, useState } from 'react';
 // import { db } from './firebase';
 // import { useAuth } from './useAuth';
