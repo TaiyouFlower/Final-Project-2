@@ -1,12 +1,10 @@
-import React from 'react'
+import React from "react";
 
 function page() {
-  return (
-    <div>page</div>
-  )
+  return <div>page</div>;
 }
 
-export default page
+export default page;
 
 // import React, { useEffect, useState } from 'react';
 // import { db } from './firebase';
@@ -29,7 +27,6 @@ export default page
 //     }
 //   }, [user]);
 
-
 //   const removeFromWatchlist = async (movieId) => {
 //     await db.collection('usernames').doc(user.uid).collection('watchlist').doc(movieId).delete();
 //     alert("Movie removed from your watchlist.");
@@ -38,7 +35,6 @@ export default page
 //     const movieDetails = await Promise.all(movieIds.map(movieId => fetchApi(`/movie/${movieId}`)));
 //     setMovies(movieDetails);
 //   };
-
 
 //   return (
 //     <div>
