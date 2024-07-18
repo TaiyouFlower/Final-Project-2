@@ -56,14 +56,14 @@ export default function Home() {
     }
   };
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center bg-[#111]">
       <Header />
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 max-w-[1720px] mx-8 gap-4 mt-16 mb-4">
         {loadMovies()}
       </div>
       <button
         onClick={loadMoreMovies}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded mb-4"
       >
         Load More
       </button>
