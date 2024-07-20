@@ -36,8 +36,6 @@ const Watchlist = () => {
   }, [cookies.token, router]);
 
   if (loading) return <div>Loading...</div>;
-  if (watchlist.length === 0) return <div>No movies in watchlist.</div>;
-
   return (
     <div className="flex flex-col items-center bg-[#111]">
       <Header />
